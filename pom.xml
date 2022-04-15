@@ -26,7 +26,7 @@
 		<dependency>
 			<groupId>de.voomdoon.util.test</groupId>
 			<artifactId>vd-test-util</artifactId>
-			<version>[0.1.0,0.1.99],[0.1.0-SNAPSHOT]</version>
+			<version>[0.1.0-SNAPSHOT],[0.1.0,0.1.99]</version>
 		</dependency>
 
 		<!-- + + + + + external test dependencies + + + + + -->
