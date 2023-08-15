@@ -1,0 +1,41 @@
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+
+    - name: setup-java
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: 'maven'
+
+    - name: cache .m2/repository
+      uses: actions/cache@v1
+      with:
+        path: ~/.m2/repository
+        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          ${{ runner.os }}-maven-
+
+    - name: maven
+      run: mvn -B --update-snapshots package
+
+    - name: staging
+      run: mkdir staging && cp pom.xml staging
+
+    - name: upload-artifact
+      run: mvn -B deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.MAVEN_WRITE_PACKAGES }}
