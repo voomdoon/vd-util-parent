@@ -16,6 +16,17 @@
 
 	<packaging>pom</packaging>
 
+	<name>vd-util-parent</name>
+	<description>parent module for all voomdoon utility modules</description>
+    <url>https://github.com/voomdoon/vd-util-parent</url>
+
+	<scm>
+		<url>https://github.com/voomdoon/vd-util-parent</url>
+		<connection>scm:git:https://github.com/voomdoon/vd-util-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:voomdoon/vd-util-parent.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<properties>
 		<skipTestJar>false</skipTestJar>
 	</properties>
