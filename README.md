@@ -1,7 +1,7 @@
 # vd-util-parent
 
-[![CI](https://github.com/voomdoon/vd-parent/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/voomdoon/vd-parent/actions/workflows/maven.yml?query=branch%3Amain)
-[![License](https://img.shields.io/github/license/voomdoon/vd-parent)](https://github.com/voomdoon/vd-parent/blob/main/LICENSE)
+[![CI](https://github.com/voomdoon/vd-util-parent/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/voomdoon/vd-util-parent/actions/workflows/maven.yml?query=branch%3Amain)
+[![License](https://img.shields.io/github/license/voomdoon/vd-util-parent)](https://github.com/voomdoon/vd-util-parent/blob/main/LICENSE)
 [![Java](https://img.shields.io/badge/Java-21-blue)](https://adoptium.net/)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-util-parent&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-util-parent)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-util-parent&metric=bugs)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-util-parent)
