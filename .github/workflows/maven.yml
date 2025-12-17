@@ -33,4 +33,4 @@ jobs:
       run: |
         mvn -B -Pci \
           clean verify jacoco:report \
-          org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=voomdoon_vd-parent
+          org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=voomdoon_vd-util-parent
