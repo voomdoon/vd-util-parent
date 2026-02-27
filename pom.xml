@@ -10,7 +10,7 @@
 
 	<groupId>de.voomdoon.util</groupId>
 	<artifactId>vd-util-parent</artifactId>
-	<version>0.2.1-SNAPSHOT</version>
+	<version>0.2.1</version>
 
 	<packaging>pom</packaging>
 
@@ -22,7 +22,7 @@
 		<url>https://github.com/voomdoon/vd-util-parent</url>
 		<connection>scm:git:https://github.com/voomdoon/vd-util-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:voomdoon/vd-util-parent.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>0.2.1</tag>
 	</scm>
 
 	<properties>
