@@ -26,6 +26,7 @@
 	</scm>
 
 	<properties>
+		<!-- Intentionally enables test jars for inheriting modules; this parent POM itself has no test-jar content. -->
 		<skipTestJar>false</skipTestJar>
 	</properties>
 </project>
